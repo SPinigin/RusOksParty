@@ -167,7 +167,7 @@ function initParallax() {
             heroSection.style.backgroundPosition = `center ${50 - parallaxY * 0.15}%`;
             
             if (heroContent) {
-                const contentOffset = scrolled * 0.3;
+                const contentOffset = scrolled * 0.1;
                 heroContent.style.transform = `translateY(${contentOffset}px)`;
             }
         } else {
