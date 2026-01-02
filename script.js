@@ -53,7 +53,7 @@ function createICSFile() {
     
     const title = 'Wedding AfterParty';
     const location = eventLocation;
-    const description = 'Приглашение на свадебную вечеринку';
+    const description = 'Wedding AfterParty';
     
     const icsContent = [
         'BEGIN:VCALENDAR',
@@ -83,7 +83,7 @@ function createCalendarLink() {
     
     const title = encodeURIComponent('Wedding AfterParty');
     const location = encodeURIComponent(eventLocation);
-    const description = encodeURIComponent('Приглашение на свадебную вечеринку');
+    const description = encodeURIComponent('Wedding AfterParty');
     
     if (device === 'android' || device === 'desktop') {
         return `https://www.google.com/calendar/render?action=TEMPLATE&text=${title}&dates=${startDate}/${endDate}&details=${description}&location=${location}`;
