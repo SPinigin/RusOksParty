@@ -28,12 +28,14 @@ body {
     align-items: center;
     justify-content: center;
     position: relative;
+    background-color: #1a1a1a;
     background-image: url('img/rusoks.jpg');
     background-size: 120% auto;
     background-position: center 50%;
     background-repeat: no-repeat;
     will-change: background-position, transform;
     overflow: hidden;
+    margin-bottom: 0;
 }
 
 .hero-overlay {
@@ -175,6 +177,7 @@ body {
     background-position: center;
     position: relative;
     padding: 15px 0;
+    margin-top: 0;
 }
 
 .info-content {
